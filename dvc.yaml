@@ -1,0 +1,14 @@
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - src/train.py
+    params:
+    - train.conv_activation
+    - train.lr
+    - train.num_epochs
+    metrics:
+    - dvclive/metrics.json:
+        cache: false
+    - output/metrics.json:
+        cache: false
