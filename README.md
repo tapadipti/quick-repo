@@ -1,3 +1,3 @@
 # Quick repo
 
-This is quick repo for test purposes2.
+This is quick repo for test purposes6.
